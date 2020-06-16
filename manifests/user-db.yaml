@@ -136,7 +136,7 @@ metadata:
 spec:
   replicas: 1
   selector:
-    watchLabels:
+    matchLabels:
       name: user-db
   strategy:
     type: Recreate
